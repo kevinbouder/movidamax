@@ -1,0 +1,152 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600;800&display=swap');
+/* font-family: 'bebas Neue', cursive; */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: #1f1f1f;
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.header {
+    background-image: url(../img/images/micro.avif);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.menu {
+    position: absolute;
+    top: 0%;
+    left: -1%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    background-color: #eb6e20;
+}
+
+.logo {
+    font-size: 24px;
+    color: #CF2D3A;
+    font-weight: 0;
+    text-transform: uppercase;
+}
+
+.logo img {
+    height: 90px;
+    
+
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;   
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #ffff;
+    display: block;   
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt {
+    color: rgb(245, 180, 27);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.heder-txt h1, span, h3 {
+    font-size: 50px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'bebas Neue', cursive;
+    color: rgb(245, 180, 27);
+}
+
+.header-txt span {
+    font-size: 25px;
+}
+
+.header-txt p {
+    color: #afafaa;
+    padding: 0 250px;
+    margin: 25px 0;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: #eb6e20;
+    color: #ffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 25px;
+    border: 0;
+}
+
+.btn-1:hover {
+    background-color: #b4272e;
+}
+
+
+.player{
+}
+.player{
+    margin: 10px;
+    padding: 10%;
+    
+}
+
+.header-dir {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.dir h3 {
+    font-size: 18px;
+}
+
+.dir p {
+    font-size: 22px;
+    color:#ffff;
+    text-transform: uppercase;
+}
+
