@@ -41,19 +41,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 1000;
+    z-index: 80;
     background-color: #eb6e20;
 }
 
 .logo {
     font-size: 24px;
-    color: #CF2D3A;
+    color: #f4ebec;
     font-weight: 0;
     text-transform: uppercase;
 }
 
 .logo img {
-    height: 90px;
+    height: 70px;
     
 
 }
@@ -148,5 +148,128 @@ body {
     font-size: 22px;
     color:#ffff;
     text-transform: uppercase;
+}
+.welcome {
+    display: flex;
+}
+
+.welcome-1{
+    background-image: url(css/css.css);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.welcome-2 {
+    width: 50%;
+    padding: 150px 250px 150px 100px;
+    background-color: #191919;
+}
+
+h2 {
+    font-size: 90px;
+    line-height: 100px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #afafaf;
+    margin: 25px 0;
+}
+
+.b1 {
+    color: #CF2D3A;
+}
+
+.services {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.services-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    border: 1px solid #CF2D3A;
+    width: 80px;
+}
+
+.services-txt p {
+    padding: 50px 150px;
+}
+
+.services-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 0;
+}
+
+.services-1 {
+    background-color: #070707;
+    padding: 35% 25%;
+    margin: 0 10px;
+    border border-radius: 0px;
+}
+
+.services-1 img {
+    width: 25px;
+    margin-bottom: 15px;
+}
+
+.services-1 h3 {
+    font-size: 25px;
+    color: #ffffff;
+
+}
+
+.services-1 a {
+    color: #eb6e20;
+    font-size: 16px;
+}
+
+.prices {
+    display: flex
+}
+
+.prices-1 {
+    width: 50%;
+    padding: 150px 250px 150px 100px;
+    background-color: #191919;
+}
+
+table {
+    margin: 50px 0;
+    width: 10%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+tr{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #afafaf;
+    margin-bottom: 10px;
+}
+
+th {
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+
+td{
+    color: #eb6e20;
+}
+
+
+.prices-2 {
+    
 }
 
